@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>My Notes</h1>
+    <textarea id="content" cols="50" rows="5" placeholder="Type here"></textarea><br>
+    <input type="date" id="dateInput"><br>
+    <input type="time" id="timeInput">
+    <button onclick="createNote(content.value, dateInput.value, timeInput.value)"  id="taskButton">Add Note</button><br>
+    <input id="searchInput" type="text" placeholder="Search here"><Br>
+    <button id="searchButton">Search</button><br>
+
+    <div id="notesBoard"></div>
+
+
+    
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

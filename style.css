@@ -1,0 +1,113 @@
+body{
+    background-image: url(./background.jpg);
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.divBodyStyle{
+    background-image: url(./note.png);
+    background-repeat: no-repeat;
+    height: 282px;
+    width: 285px;
+    display: inline-block;
+    padding: 5px;
+    margin: 0px;
+    background-position: center;
+    font-family: cursive;
+    color: brown;
+}
+.divBodyStyle p{
+    padding: 32px;
+    overflow: auto;
+    height: 81px;
+}
+
+.divBodyStyle span{
+    display: block;
+    margin: 5px;
+}
+
+.deleteIcon{
+    display: inline!important;
+    position: relative;
+    left: 115px;
+    top: 27px;
+
+}
+.deleteIcon:hover{
+    color: red;
+
+}
+
+#content{
+    border: 0px;
+    background-color: antiquewhite;
+    font-family: cursive;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+
+#dateInput, #timeInput{
+    height: 25px;
+    width: 170px;
+    background-color: antiquewhite;
+    border: 2px solid sandybrown;
+    border-radius: 10px;
+    font-family: cursive;
+    text-align: center;
+    color: brown;
+    display: block;
+    margin: auto;
+ 
+}
+
+#taskButton{
+    height: 33px;
+    width: 125px;
+    padding: 5px;
+    margin: 10px;
+    font-family: cursive;
+    text-align: center;
+    border: 3px solid sandybrown;
+    background-color: brown;
+    color: sandybrown;
+    border-radius: 15px;
+}
+
+#taskButton:hover{
+    background-color: sandybrown;
+    color: brown;
+    border: 3px solid brown;
+}
+
+#searchInput{
+    width: 170px;
+    height: 18px;
+    font-family: cursive;
+    padding: 5px;
+    border: 3px solid sandybrown;
+    border-radius: 15px;
+    background-color: antiquewhite;
+}
+
+#searchButton{
+    height: 33px;
+    width: 125px;
+    padding: 5px;
+    margin: 10px;
+    font-family: cursive;
+    text-align: center;
+    border: 3px solid sandybrown;
+    background-color: brown;
+    color: sandybrown;
+    border-radius: 15px;
+}
+
+#searchButton:hover{
+    background-color: sandybrown;
+    color: brown;
+    border: 3px solid brown;
+}
